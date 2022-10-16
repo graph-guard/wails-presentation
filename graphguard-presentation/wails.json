@@ -1,0 +1,12 @@
+{
+  "name": "GraphGuard Presentation",
+  "outputfilename": "GraphGuard Presentation",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Daniel Sharkov",
+    "email": "26609752+DanielSharkov@users.noreply.github.com"
+  }
+}

@@ -1,0 +1,50 @@
+html {
+	background-color: transparent;
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+}
+
+button {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: none;
+	background-color: #ddd;
+	color: #000;
+	font-size: 1rem;
+	box-shadow: 0 1px 3px rgba(0,0,0, 0.5);
+	line-height: 1;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #fff;
+}
+button:active {
+	background-color: #ccc;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 2rem;
+	letter-spacing: 0.15rem;
+}
+
+input {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	background-color:rgba(255,255,255, 0.75);
+	border: solid 1px rgba(255,255,255, 0.5);
+}
+
+/* OS specific overwrite */
+html[env-platform='linux'] {
+	background-color: #222;
+}
