@@ -154,8 +154,8 @@ For more complex computations Go can be more efficient.
 ## No access to the DOM from Go
 There is no access point to the DOM from Go. It's not possible to do something with the frontend, like with WebAssambly. Such desires would need to be handled by events.
 
-## Transparent window style only for Win11 and macOS
-As all features are OS dependent, it's hard to keep an universal look. The Transparent window feature is unfortunately unavailable for linux. On Windows 11 it's even possible to use different bluring techniques: Acrylic, the frosty looking like used in Windows 10, and Mica, which is used in Windows 11.
+## Transparent window style only for Windows and macOS
+As all features are OS dependent, it's hard to keep an universal look. The Transparent window feature is unfortunately unavailable for linux. On Windows 11 it's even possible to use different bluring techniques: Acrylic, the frosty looking like used in Windows 10, and Mica, which is used in Windows 11. Windows 10 and macOS only have a predefined default which can't be changed.
 
 ## Invisible toolbar on transparent window in Windows 10
 As seen on the screenshot, there is no text, it's invisible, but if you click it, it opens the corresponding menu.
