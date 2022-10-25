@@ -26,19 +26,15 @@ func (a *App) startup(ctx context.Context) {
 }
 
 func (app *App) Fibonacci(n uint64) uint64 {
-	// if n < 2 {
-	// 	return n
-	// }
-	// var a, b uint64 = 0, 1
-	// for n--; n > 0; n-- {
-	// 	a += b
-	// 	a, b = b, a
-	// }
-	// return b
-	i := uint64(0)
-	for ; i < n; i++ {
+	if n < 2 {
+		return n
 	}
-	return i
+	var a, b uint64 = 0, 1
+	for n--; n > 0; n-- {
+		a += b
+		a, b = b, a
+	}
+	return b
 }
 
 func (app *App) Events_HelloWorld_FireOnce() {
